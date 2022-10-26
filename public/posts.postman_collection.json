@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "d67473f6-12f3-4a79-b76c-9d16e5cf1270",
+		"name": "posts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20129956"
+	},
+	"item": [
+		{
+			"name": "getposts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://webeetec.com/itsharks24/blog/api/getposts.php",
+					"protocol": "https",
+					"host": [
+						"webeetec",
+						"com"
+					],
+					"path": [
+						"itsharks24",
+						"blog",
+						"api",
+						"getposts.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "singlepost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://webeetec.com/itsharks24/blog/api/singlepost.php?id=1",
+					"protocol": "https",
+					"host": [
+						"webeetec",
+						"com"
+					],
+					"path": [
+						"itsharks24",
+						"blog",
+						"api",
+						"singlepost.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getcategory",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://webeetec.com/itsharks24/blog/api/getcategory.php",
+					"protocol": "https",
+					"host": [
+						"webeetec",
+						"com"
+					],
+					"path": [
+						"itsharks24",
+						"blog",
+						"api",
+						"getcategory.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getpostbycategory",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "category",
+							"value": "Sports",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://webeetec.com/itsharks24/blog/api/getpostsbycategory.php?category=Sports",
+					"protocol": "https",
+					"host": [
+						"webeetec",
+						"com"
+					],
+					"path": [
+						"itsharks24",
+						"blog",
+						"api",
+						"getpostsbycategory.php"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "Sports"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getrelatedpost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://webeetec.com/itsharks24/blog/api/getrelated.php?category=Sports&id=1",
+					"protocol": "https",
+					"host": [
+						"webeetec",
+						"com"
+					],
+					"path": [
+						"itsharks24",
+						"blog",
+						"api",
+						"getrelated.php"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "Sports"
+						},
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getrecentpost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://webeetec.com/itsharks24/blog/api/getrecentpost.php",
+					"protocol": "https",
+					"host": [
+						"webeetec",
+						"com"
+					],
+					"path": [
+						"itsharks24",
+						"blog",
+						"api",
+						"getrecentpost.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

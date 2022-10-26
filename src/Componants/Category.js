@@ -74,7 +74,7 @@ useEffect(()=>{
 				<div className="sidebar-widget">
 					<h3>About us</h3>
 					<div className="aboutMeWidget">
-						<img src="images/ourlogo.png" alt="Francoise img" />
+						<img src="/images/ourlogo.png" alt="Francoise img" />
 						<p>A training company specialized in teaching programming languages, networking and computer science to ensure that you get practical experience in the field of software.</p>
 					</div>
 				</div>

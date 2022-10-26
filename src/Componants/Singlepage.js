@@ -63,7 +63,7 @@ useEffect(()=>{
 				<div className="sidebar-widget">
 					<h3>About us</h3>
 					<div className="aboutMeWidget">
-						<img src="https://webeetec.com/itsharks24/blog/admin/images/ourlogo.png" alt="Francoise img" />
+						<img src="/images/ourlogo.png" alt="Francoise img" />
 						<p>A training company specialized in teaching programming languages, networking and computer science to ensure that you get practical experience in the field of software.</p>
 					</div>
 				</div>
@@ -102,35 +102,35 @@ useEffect(()=>{
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="#" class="sbi_photo">
-								<img src="https://webeetec.com/itsharks24/blog/admin/images/content/inst.jpg" alt="Francoise img" />
+								<img src="/images/content/inst.jpg" alt="Francoise img" />
 							</a>
 						</div>
 					</div>
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="#" class="sbi_photo">
-								<img src="https://webeetec.com/itsharks24/blog/admin/images/content/inst2.jpg" alt="Francoise img" />
+								<img src="/images/content/inst2.jpg" alt="Francoise img" />
 							</a>
 						</div>
 					</div>
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="#"className="sbi_photo">
-								<img src="https://webeetec.com/itsharks24/blog/admin/images/content/inst3.jpg" alt="Francoise img" />
+								<img src="/images/content/inst3.jpg" alt="Francoise img" />
 							</a>
 						</div>
 					</div>
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="#" class="sbi_photo">
-								<img src="https://webeetec.com/itsharks24/blog/admin/images/content/inst4.jpg" alt="Francoise img" />
+								<img src="/images/content/inst4.jpg" alt="Francoise img" />
 							</a>
 						</div>
 					</div>
 					<div className="sbi_item sbi_type_image">
 						<div className="sbi_photo_wrap">
 							<a href="#" className="sbi_photo">
-								<img src="https://webeetec.com/itsharks24/blog/admin/images/content/inst5.jpg" alt="Francoise img" />
+								<img src="/images/content/inst5.jpg" alt="Francoise img" />
 							</a>
 						</div>
 					</div>
